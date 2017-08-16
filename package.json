@@ -1,0 +1,30 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "A CLI-based storefront with the MySQL database backend.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avish2/BAMazon.git"
+  },
+  "keywords": [
+    "storefront",
+    "CLI-storefront",
+    "store"
+  ],
+  "author": "Angela Vish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avish2/BAMazon/issues"
+  },
+  "homepage": "https://github.com/avish2/BAMazon#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "console.table": "^0.8.0",
+    "inquirer": "^3.0.6",
+    "mysql": "^2.13.0"
+  }
+}
